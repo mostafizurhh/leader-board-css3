@@ -12,13 +12,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.container1 {
+.container {
     background: #FFFFFF;
     border-radius: 5px;
     width: 870px;
     padding: 30px;
+    margin-top: 19px;
 }
 
 hr {
@@ -101,4 +103,34 @@ hr {
 .blog-author a {
     text-decoration: none;
     color: #562EFF;
+}
+
+/* Latest Courses Style */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+    opacity: 0.25;
 }
