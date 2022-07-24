@@ -181,13 +181,7 @@ hr {
 @media only screen and (max-width:668px) {
     .container {
         width: 100%;
-    }
-
-    .top-section,
-    .top-blogs,
-    .section-title,
-    .courses {
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .top-players,
@@ -200,6 +194,10 @@ hr {
     .blog {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .player-name {
+        margin-left: 0;
     }
 
     .course {
