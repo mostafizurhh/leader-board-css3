@@ -210,3 +210,33 @@ hr {
 }
 
 /* Medium Device */
+@media only screen and (min-width:669px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .top-players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .players,
+    .blog {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .player-name {
+        margin-left: 0;
+    }
+
+    .course {
+        margin-bottom: 15px;
+    }
+
+    .course-info {
+        margin-top: 0px;
+    }
+}
