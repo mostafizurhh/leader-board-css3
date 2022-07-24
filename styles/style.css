@@ -172,3 +172,43 @@ hr {
 #middle-course {
     color: #ED6B4F;
 }
+
+/* -----------------
+    Media Queries
+   ----------------- */
+
+/* small device */
+@media only screen and (max-width:668px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-section,
+    .top-blogs,
+    .section-title,
+    .courses {
+        margin-left: 10px;
+    }
+
+    .top-players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .players,
+    .blog {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .course {
+        margin-bottom: 15px;
+    }
+
+    .course-info {
+        margin-top: 0px;
+    }
+}
+
+/* Medium Device */
